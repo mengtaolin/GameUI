@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1130">
+  <displayList>
+    <text id="n0_g0gd" name="loginName" xy="177,394" size="414,45" fontSize="12" autoSize="none" text=""/>
+    <text id="n2_g0gd" name="loginLabel" xy="48,393" size="127,48" fontSize="20" align="center" vAlign="middle" autoSize="none" text="登录名：&#xA;"/>
+    <component id="n3_g0gd" name="loginButton" src="hixt1j" pkg="9leh0eyf" xy="208,527">
+      <Button title="登录"/>
+    </component>
+  </displayList>
+</component>

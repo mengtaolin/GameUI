@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ed3tkcfk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="g0gd0" name="LoginMain.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Login"/>
+</packageDescription>
