@@ -1,12 +1,12 @@
 {
 	"codeGeneration":{
-		"classNamePrefix":"",
+		"classNamePrefix":"UI",
 		"codePath":"F:\\ChessGame\\GameClient\\src\\uiResource",
 		"codeType":"TS",
 		"getMemberByName":false,
 		"ignoreNoname":true,
 		"memberNamePrefix":"",
-		"packageName":""
+		"packageName":"info.xiaomo.client"
 	},
 	"fileExtension":"fui",
 	"packageCount":2,
