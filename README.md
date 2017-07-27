@@ -1,6 +1,6 @@
 使用FairyUI构建UI界面
 
-![背包](assets/bag/Bigmap.png)
+![背包](/assets/Bag/Bitmap.png)
 
 ##### [FairyUI在线演示](http://www.fairygui.com/demo)
 ##### [FairyUI社区](http://www.fairygui.com/questions)
