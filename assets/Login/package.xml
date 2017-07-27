@@ -2,6 +2,7 @@
 <packageDescription id="ed3tkcfk" jpegQuality="80" compressPNG="true">
   <resources>
     <component id="g0gd0" name="LoginMain.xml" path="/" exported="true"/>
+    <image id="g0gd1" name="loginBg.png" path="/"/>
   </resources>
   <publish name="Login" genCode="true"/>
 </packageDescription>
