@@ -9,7 +9,7 @@
     <image id="rpol6" name="n4.png" path="/" exported="true"/>
     <image id="rpol7" name="n5.png" path="/" exported="true"/>
   </resources>
-  <publish name="looplist" path="../LoopListDemo/resource/assets" packageCount="1">
+  <publish name="looplist" packageCount="1" genCode="true">
     <atlas name="默认" index="0"/>
   </publish>
 </packageDescription>

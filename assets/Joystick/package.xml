@@ -6,7 +6,7 @@
     <component id="ojxk2" name="circle.xml" path="/"/>
     <image id="ojxk3" name="1.png" path="/"/>
   </resources>
-  <publish name="joystick" path="../JoystickDemo/resource/assets">
+  <publish name="joystick" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

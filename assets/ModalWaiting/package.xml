@@ -16,7 +16,7 @@
     <component id="jtdsc" name="WindowModalWaiting.xml" path="/" exported="true"/>
     <movieclip id="jtdsd" name="qtm011.jta" path="/"/>
   </resources>
-  <publish name="modalwaiting" path="../ModalWaitingDemo/resource/assets">
+  <publish name="modalwaiting" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

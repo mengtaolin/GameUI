@@ -13,7 +13,7 @@
     <image id="evgg9" name="6.png" path="/"/>
     <image id="evgga" name="8.png" path="/"/>
   </resources>
-  <publish name="extension" path="../ExtensionDemo/resource/assets">
+  <publish name="extension" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

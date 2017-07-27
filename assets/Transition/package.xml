@@ -54,7 +54,7 @@
     <font id="lvxr1f" name="number2.fnt" path="/" exported="true"/>
     <component id="lvxr1g" name="TRAP.xml" path="/" exported="true"/>
   </resources>
-  <publish name="transition" path="../TransitionDemo/resource/assets">
+  <publish name="transition" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

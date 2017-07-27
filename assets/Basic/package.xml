@@ -205,7 +205,7 @@
     <image id="g51h8a" name="勾选gray.png" path="/pic/"/>
     <image id="g51h8b" name="勾选框gray.png" path="/pic/"/>
   </resources>
-  <publish name="basic" path="../MainDemo/resource/assets" packageCount="1">
+  <publish name="basic" packageCount="1" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

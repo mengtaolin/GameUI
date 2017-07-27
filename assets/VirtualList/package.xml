@@ -14,7 +14,7 @@
     <image id="c8s2a" name="8.png" path="/"/>
     <component id="rpolb" name="Button1.xml" path="/"/>
   </resources>
-  <publish name="virtuallist" path="../VirtualListDemo/resource/assets" packageCount="1">
+  <publish name="virtuallist" packageCount="1" genCode="true">
     <atlas name="默认" index="0"/>
   </publish>
 </packageDescription>
