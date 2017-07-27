@@ -6,7 +6,7 @@
 		"getMemberByName":false,
 		"ignoreNoname":true,
 		"memberNamePrefix":"",
-		"packageName":"info.xiaomo.client"
+		"packageName":""
 	},
 	"fileExtension":"fui",
 	"packageCount":2,
