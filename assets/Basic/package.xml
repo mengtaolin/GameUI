@@ -57,8 +57,6 @@
     <image id="nz0z20" name="long_dead2_png.png" path="/素材/" scale="tile"/>
     <image id="h5p722" name="i256.png" path="/素材/"/>
     <image id="wa8u2q" name="文字_vip_png.png" path="/素材/"/>
-    <font id="wa8u2r" name="BMFont示例.fnt" path="/字体/" exported="true" texture="udfj0"/>
-    <image id="udfj0" name="BMFont示例_atlas.png" path="/字体/"/>
     <component id="wa8u2s" name="Demo_Loader.xml" path="/" exported="true"/>
     <image id="wa8u2t" name="r3.png" path="/素材/" exported="true"/>
     <image id="wa8u2u" name="r4.png" path="/素材/" exported="true"/>
@@ -67,11 +65,8 @@
     <component id="es412y" name="Demo_Clip&amp;Scroll.xml" path="/" exported="true"/>
     <component id="es412z" name="组件1.xml" path="/组件/"/>
     <image id="es4130" name="嫦娥.png" path="/素材/"/>
-    <component id="smv731" name="组件12.xml" path="/组件/"/>
     <component id="smv73f" name="组件2.xml" path="/组件/"/>
-    <component id="smv73g" name="组件13.xml" path="/组件/"/>
-    <component id="smv73h" name="组件22.xml" path="/组件/"/>
-    <component id="smv73i" name="组件222.xml" path="/组件/"/>
+    <component id="smv73i" name="组件4.xml" path="/组件/"/>
     <component id="w42o3j" name="Demo_Label.xml" path="/" exported="true"/>
     <component id="rt103l" name="WindowFrame.xml" path="/组件/"/>
     <image id="rt103m" name="6_png.png" path="/素材/" scale="9grid" scale9grid="40,40,80,142"/>
@@ -139,7 +134,6 @@
     <image id="t9fj5d" name="huawen1_png.png" path="/素材/"/>
     <image id="t9fj5e" name="huawen2_png.png" path="/素材/"/>
     <movieclip id="t9fj5f" name="加载小宠物_jta.jta" path="/素材/"/>
-    <component id="t9fj5g" name="采集进度条2.xml" path="/组件/"/>
     <component id="t9fj5h" name="采集进度bar2.xml" path="/组件/"/>
     <component id="i3s65i" name="ScrollBar_HZ.xml" path="/滚动条/" exported="true"/>
     <image id="i3s65j" name="s10.png.jpg" path="/素材/"/>
@@ -181,11 +175,9 @@
     <image id="l6f471" name="VtSeperator.jpg" path="/素材/"/>
     <image id="l6f472" name="a18_png.png" path="/素材/"/>
     <component id="l6f473" name="WindowA.xml" path="/" exported="true"/>
-    <component id="f2ax74" name="组件4.xml" path="/组件/"/>
     <component id="gx2b76" name="Demo_Popup.xml" path="/" exported="true"/>
     <component id="gx2b77" name="Demo_Window.xml" path="/" exported="true"/>
     <component id="gx2b78" name="Demo_Drag&amp;Drop.xml" path="/" exported="true"/>
-    <component id="gx2b79" name="BagGridSub2.xml" path="/组件/"/>
     <component id="796x7a" name="WindowB.xml" path="/" exported="true"/>
     <component id="niii7b" name="关闭按钮.xml" path="/组件/"/>
     <image id="niii7c" name="close_png.png" path="/素材/"/>
@@ -194,7 +186,6 @@
     <component id="k8qi7f" name="按钮1.xml" path="/组件/"/>
     <component id="t24n7f" name="Demo_Component.xml" path="/" exported="true"/>
     <component id="t24n7g" name="组件5.xml" path="/组件/"/>
-    <component id="qa477h" name="组件6.xml" path="/组件/"/>
     <component id="rwlc7i" name="Demo_Grid.xml" path="/" exported="true"/>
     <image id="rwlc7j" name="grid_header_png.png" path="/素材/" scale="9grid" scale9grid="50,5,100,10"/>
     <component id="rwlc7k" name="GridItem.xml" path="/组件/"/>
@@ -204,17 +195,14 @@
     <component id="rwlc7s" name="Button16.xml" path="/组件/"/>
     <image id="rwlc7t" name="22.png" path="/素材/"/>
     <component id="rwlc7w" name="Demo_Depth.xml" path="/" exported="true"/>
-    <component id="rwlc7x" name="Component13.xml" path="/组件/"/>
     <component id="rwlc7y" name="Button1.xml" path="/组件/"/>
     <component id="bh5j7z" name="Component12.xml" path="/组件/" exported="true"/>
     <sound id="mejr81" name="click.mp3" path="/声音/" exported="true"/>
     <sound id="mejr82" name="tabswitch.mp3" path="/声音/" exported="true"/>
-    <component id="f6ue83" name="Button52.xml" path="/组件/"/>
     <component id="tqrn84" name="OnOffButton.xml" path="/组件/"/>
     <image id="tqrn85" name="graybg.png" path="/组件/"/>
     <image id="tqrn86" name="greenbg.png" path="/组件/"/>
     <image id="tqrn87" name="whitebox.png" path="/组件/"/>
-    <component id="g51h89" name="Button82.xml" path="/组件/"/>
     <image id="g51h8a" name="勾选gray.png" path="/素材/"/>
     <image id="g51h8b" name="勾选框gray.png" path="/素材/"/>
   </resources>
