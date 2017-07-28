@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1136,640" extention="ProgressBar">
+<component size="1136,640" extention="ProgressBar" adaptationTest="FitWidthAndSetMiddle">
   <displayList>
-    <image id="n9_h6a3" name="n9" src="h6a36" xy="-1,1" size="1135,662" visible="false"/>
+    <image id="n9_h6a3" name="n9" src="h6a36" xy="-1,1" size="1135,662"/>
     <image id="n1" name="n0" src="h6a31" xy="71,547" size="947,16" grayed="true"/>
     <image id="n4" name="bar" src="h6a32" xy="60,547" size="646,16">
       <relation target="" sidePair="left-right"/>

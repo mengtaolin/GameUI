@@ -1,29 +1,6 @@
 {
-	"expanded_nodes": [
-		"r5x6wd5v",
-		"/",
-		"ed3tkcfk",
-		"/"
-	],
-	"hidden_packages": [],
-	"active_doc": [
-		"ed3tkcfk",
-		"g0gd0"
-	],
-	"docs": [
-		"9leh0eyf",
-		"tqrn84",
-		"9leh0eyf",
-		"rt103t",
-		"ed3tkcfk",
-		"g0gd0",
-		"9leh0eyf",
-		"rpmbz",
-		"9leh0eyf",
-		"hixt1j",
-		"9leh0eyf",
-		"rwlc7y",
-		"r5x6wd5v",
-		"jh150"
-	]
+	"active_doc": null,
+	"docs": [],
+	"expanded_nodes": [],
+	"hidden_packages": []
 }
