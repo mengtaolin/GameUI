@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="v0nz63bu" jpegQuality="80" compressPNG="true">
   <resources>
-    <component id="h6a30" name="loading.xml" path="/" exported="true"/>
+    <component id="h6a30" name="Loading.xml" path="/" exported="true"/>
     <image id="h6a36" name="loadingBg.jpg" path="/"/>
   </resources>
   <publish name="Loading" genCode="true"/>

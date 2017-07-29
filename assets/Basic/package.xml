@@ -150,7 +150,6 @@
     <component id="rwlc7k" name="GridItem.xml" path="/component/" exported="true"/>
     <component id="rwlc7l" name="StarPorgress.xml" path="/component/" exported="true"/>
     <image id="rwlc7m" name="star.png" path="/pic/" scale="tile"/>
-    <component id="rwlc7n" name="GridItem2.xml" path="/component/" exported="true"/>
     <component id="rwlc7s" name="playButton.xml" path="/component/" exported="true"/>
     <image id="rwlc7t" name="22.png" path="/pic/"/>
     <component id="rwlc7y" name="BlueButton.xml" path="/component/" exported="true"/>
