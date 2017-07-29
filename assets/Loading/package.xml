@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="v0nz63bu" jpegQuality="80" compressPNG="true">
   <resources>
-    <component id="h6a30" name="加载进度条.xml" path="/" exported="true"/>
-    <image id="h6a31" name="loading条暗.png" path="/"/>
-    <image id="h6a32" name="loading条亮.png.jpg" path="/"/>
-    <image id="h6a33" name="huawen1_png.png" path="/"/>
-    <image id="h6a34" name="huawen2_png.png" path="/"/>
-    <movieclip id="h6a35" name="加载小宠物_jta.jta" path="/"/>
+    <component id="h6a30" name="loading.xml" path="/" exported="true"/>
     <image id="h6a36" name="loadingBg.jpg" path="/"/>
   </resources>
   <publish name="Loading" genCode="true"/>

@@ -15,8 +15,8 @@
     <image id="n16" name="n16" src="c8s29" xy="40,42">
       <gearDisplay controller="IsRead" pages="0"/>
     </image>
-    <text id="n4" name="timeText" xy="113,67" size="239,39" fontSize="20" color="#075747" vAlign="middle" leading="0" autoSize="none" text=""/>
-    <text id="n9" name="title" xy="114,28" size="240,28" fontSize="22" color="#3333ff" vAlign="middle" autoSize="none" text=""/>
+    <text id="n4" name="timeText" xy="113,67" size="239,39" fontSize="20" color="#075747" vAlign="middle" leading="0" autoSize="none" text="活动奖励发放"/>
+    <text id="n9" name="title" xy="114,28" size="240,28" fontSize="22" color="#ff0000" vAlign="middle" autoSize="none" text="系统邮件"/>
     <image id="n17" name="n17" src="c8s2a" xy="234,2">
       <gearDisplay controller="c1" pages="1"/>
     </image>

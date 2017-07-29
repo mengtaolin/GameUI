@@ -44,7 +44,6 @@
       <item/>
       <item/>
     </list>
-    <image id="n1" name="n1" src="jh151" xy="45,365" size="511,2"/>
     <image id="n2" name="n2" src="jh152" xy="70,944" size="130,124"/>
     <loader id="n3" name="n3" xy="76,951" size="120,110" align="center" vAlign="middle"/>
     <text id="n4" name="n4" xy="214,980" size="101,28" fontSize="24" color="#ff0099" text="选中的："/>
