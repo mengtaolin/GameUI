@@ -171,10 +171,10 @@
     <image id="odnx8p" name="i0.png" path="/pic/" exported="true"/>
     <image id="odnx8q" name="i1.png" path="/pic/" exported="true"/>
     <image id="odnx8r" name="i2.png" path="/pic/" exported="true"/>
-    <component id="vkxk8w" name="SliderArrow_HZ.xml" path="/component/"/>
-    <component id="vkxk8x" name="SliderArrow_VT.xml" path="/component/"/>
+    <component id="vkxk8w" name="SliderArrow_HZ.xml" path="/component/" exported="true"/>
+    <component id="vkxk8x" name="SliderArrow_VT.xml" path="/component/" exported="true"/>
   </resources>
-  <publish name="basic" packageCount="1" genCode="true">
+  <publish name="Basic" packageCount="1" genCode="true">
     <atlas name="Default" index="0"/>
   </publish>
 </packageDescription>

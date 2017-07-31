@@ -13,7 +13,7 @@
     <loader id="n4" name="icon" xy="0,4" size="163,61" align="center" vAlign="middle">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n3" name="title" xy="0,3" size="163,63" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#003c49" text="">
+    <text id="n3" name="title" xy="0,3" size="163,63" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#003c49" text="按钮&#xA;">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>
