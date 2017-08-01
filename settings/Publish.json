@@ -2,7 +2,7 @@
 	"codeGeneration":{
 		"classNamePrefix":"UI",
 		"codePath":"F:\\ChessGame\\GameClient\\src\\uiResource",
-		"codeType":"TS",
+		"codeType":"C#",
 		"getMemberByName":false,
 		"ignoreNoname":true,
 		"memberNamePrefix":"",
