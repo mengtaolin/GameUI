@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" designImage="ui://3imb0zindfop1c" designImageAlpha="0" adaptationTest="FitSize">
-  <controller name="createRoomCr" alias="创建房间" pages="0,,1," selected="0"/>
+  <controller name="gameController" alias="创建房间" pages="0,主界面,1,血流麻将,2,血战麻将,3,创建好友房" selected="3">
+    <action type="play_transition" fromPage="0" toPage="1" transition="girlToLeft"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="girlToRight"/>
+  </controller>
   <displayList>
     <image id="n0_dfop" name="n0" src="dfop1" xy="0,0"/>
     <image id="n14_dfop" name="n14" src="dfopi" xy="396,57"/>
@@ -32,15 +35,15 @@
     </component>
     <group id="n13_dfop" name="n13" xy="94,613" size="1077,94" advanced="true" collapsed="true" layout="hz" colGap="100"/>
     <component id="n15_dfop" name="n15" src="dfop1e" xy="785,80" size="411,185" group="n18_dfop">
-      <Button icon="ui://3imb0zindfopg"/>
+      <Button icon="ui://3imb0zindfopg" controller="gameController" page="1"/>
     </component>
     <component id="n16_dfop" name="n16" src="dfop1e" xy="785,245" size="411,185" group="n18_dfop">
-      <Button icon="ui://3imb0zindfoph"/>
+      <Button icon="ui://3imb0zindfoph" controller="gameController" page="1"/>
     </component>
     <component id="n17_dfop" name="n17" src="dfop1e" xy="785,410" size="411,185" group="n18_dfop">
-      <Button icon="ui://3imb0zindfopc" controller="createRoomCr" page="1"/>
+      <Button icon="ui://3imb0zindfopc" controller="gameController" page="3"/>
     </component>
-    <group id="n18_dfop" name="n18" xy="785,80" size="411,515" group="n25_dfop" advanced="true" collapsed="true" layout="vt" lineGap="-20"/>
+    <group id="n18_dfop" name="n18" xy="785,80" size="411,515" group="n25_dfop" advanced="true" layout="vt" lineGap="-20"/>
     <image id="n19_dfop" name="n19" src="dfopk" xy="19,114" group="n24_dfop"/>
     <list id="n21_dfop" name="n21" xy="34,190" size="332,325" group="n24_dfop" overflow="scroll" lineGap="2" defaultItem="ui://3imb0zindfop1f">
       <item/>
@@ -50,17 +53,14 @@
       <item/>
       <item/>
     </list>
-    <text id="n22_dfop" name="n22" xy="35,522" size="327,36" group="n24_dfop" fontSize="20" color="#eed4aa" align="center" autoSize="none" text="每日最多可以互送10个好友哦！"/>
+    <text id="n22_dfop" name="n22" xy="35,525" size="327,36" group="n24_dfop" fontSize="20" color="#eed4aa" align="center" autoSize="none" text="每日最多可以互送10个好友哦！"/>
     <image id="n23_dfop" name="n23" src="dfopl" xy="107,139" group="n24_dfop"/>
     <group id="n24_dfop" name="n24" xy="19,114" size="363,459" group="n25_dfop"/>
-    <group id="n25_dfop" name="游戏大厅" xy="19,80" size="1177,515" advanced="true">
-      <gearDisplay controller="createRoomCr" pages="0"/>
+    <group id="n25_dfop" name="游戏大厅" xy="19,80" size="1177,515" advanced="true" collapsed="true">
+      <gearDisplay controller="gameController" pages="0"/>
     </group>
     <component id="n26_dfop" name="n26" src="dfop1e" xy="803,254" size="435,198" group="n28_dfop">
       <Button icon="ui://3imb0zindfope"/>
-    </component>
-    <component id="n27_dfop" name="n27" src="dfop1e" xy="1133,69" size="108,107" group="n28_dfop">
-      <Button icon="ui://3imb0zindfopb" controller="createRoomCr" page="0"/>
     </component>
     <image id="n29_dfop" name="n29" src="dfopk" xy="19,114" group="n28_dfop"/>
     <image id="n30_dfop" name="n30" src="dfopj" xy="113,141" group="n28_dfop"/>
@@ -68,9 +68,19 @@
       <item url="ui://3imb0zindfop1e" icon="ui://3imb0zindfopf"/>
       <item url="ui://3imb0zindfop1e" icon="ui://3imb0zindfopd"/>
     </list>
-    <text id="n32_dfop" name="n32" xy="70,524" size="255,31" group="n28_dfop" fontSize="20" color="#eed4aa" align="center" autoSize="none" text="本月创建房间一律免费&#xA;"/>
-    <group id="n28_dfop" name="创建好友房" xy="19,69" size="1222,504" advanced="true">
-      <gearDisplay controller="createRoomCr" pages="1"/>
+    <text id="n32_dfop" name="n32" xy="70,526" size="255,31" group="n28_dfop" fontSize="20" color="#eed4aa" align="center" autoSize="none" text="本月创建房间一律免费&#xA;"/>
+    <group id="n28_dfop" name="创建好友房" xy="19,114" size="1219,459" advanced="true" collapsed="true">
+      <gearDisplay controller="gameController" pages="3"/>
     </group>
+    <component id="n27_dfop" name="n27" src="dfop1e" xy="1133,70" size="108,107">
+      <gearDisplay controller="gameController" pages="1,2,3"/>
+      <Button icon="ui://3imb0zindfopb" controller="gameController" page="0"/>
+    </component>
   </displayList>
+  <transition name="girlToLeft">
+    <item time="0" type="XY" target="n14_dfop" tween="true" startValue="396,57" endValue="-3,57" duration="18"/>
+  </transition>
+  <transition name="girlToRight">
+    <item time="0" type="XY" target="n14_dfop" tween="true" startValue="0,57" endValue="396,57" duration="18"/>
+  </transition>
 </component>
