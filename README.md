@@ -1,7 +1,7 @@
 使用FairyUI构建UI界面
 
 ##### 1. 背包
-![背包](/assets/游戏大厅/字体颜色示意图.png)
+![背包](/assets/游戏大厅/字体颜色示意图.jpg)
 
 ##### [FairyUI在线演示](http://www.fairygui.com/demo)
 ##### [FairyUI社区](http://www.fairygui.com/questions)
