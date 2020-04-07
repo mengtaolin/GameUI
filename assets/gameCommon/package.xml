@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="zv048xp0" jpegQuality="80" compressPNG="true">
+<packageDescription id="zv048xp0">
   <resources>
     <image id="xxsu0" name="base1.png" path="/素材/"/>
     <image id="xxsu1" name="base2.png" path="/素材/"/>
@@ -76,5 +76,5 @@
     <image id="xxsu20" name="购买房卡请联系微信：jiumei091.png" path="/素材/商城/"/>
     <component id="xxsu21" name="ButtnClose.xml" path="/组件/" exported="true"/>
   </resources>
-  <publish name="游戏通用"/>
+  <publish name="gameCommon" genCode="true"/>
 </packageDescription>

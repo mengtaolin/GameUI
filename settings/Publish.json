@@ -1,14 +1,22 @@
 {
+	"atlasSetting":{
+		"paging":true,
+		"sizeOption":"pot"
+	},
+	"binaryFormat":true,
 	"codeGeneration":{
 		"classNamePrefix":"UI",
-		"codePath":"F:\\ChessGame\\GameClient\\src\\uiResource",
+		"codePath":"D:\\workspace\\GameCenter\\src\\com\\lin\\ui",
 		"codeType":"C#",
 		"getMemberByName":false,
 		"ignoreNoname":true,
 		"memberNamePrefix":"",
-		"packageName":""
+		"packageName":"com.lin.ui"
 	},
-	"fileExtension":"fui",
+	"compressDesc":true,
+	"compressPNG":true,
+	"fileExtension":"zip",
+	"jpegQuality":80,
 	"packageCount":2,
-	"path":"E:\\麻将项目\\MaJingGame\\MaJiangGame\\Assets\\FairyGUIResource"
+	"path":"D:\\workspace\\GameCenter\\src\\resource"
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="z6ip7w8e" jpegQuality="80" compressPNG="true">
+<packageDescription id="z6ip7w8e">
   <resources>
     <movieclip id="xxsu0" name="windyEffect.jta" path="/组件/effect/"/>
     <movieclip id="xxsu1" name="rainEffect.jta" path="/组件/effect/"/>
@@ -170,5 +170,5 @@
     <image id="xxsu4m" name="玩家头像框底玻璃_贴边.png" path="/素材/玩家头像/贴边切图/"/>
     <image id="xxsu4n" name="玩家头像默认_贴边.png" path="/素材/玩家头像/贴边切图/"/>
   </resources>
-  <publish name="游戏房间" path="E:\麻将项目\MaJingGame\MaJiangGame\Assets\FairyGUIResource"/>
+  <publish name="gameRoom" genCode="true"/>
 </packageDescription>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="3imb0zin" jpegQuality="80" compressPNG="true">
+<packageDescription id="3imb0zin">
   <resources>
     <component id="dfop0" name="MainLobby.xml" path="/" exported="true"/>
     <image id="dfop1" name="背景1.jpg" path="/素材/" exported="true"/>
@@ -55,5 +55,5 @@
     <component id="dfop1f" name="FriendItem.xml" path="/组件/" exported="true"/>
     <component id="dfop1g" name="BtnGetMoney.xml" path="/组件/" exported="true"/>
   </resources>
-  <publish name="游戏大厅" path="E:\麻将项目\MaJingGame\MaJiangGame\Assets\FairyGUIResource\Resources"/>
+  <publish name="gameHall" genCode="true"/>
 </packageDescription>
